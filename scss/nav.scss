@@ -1,0 +1,19 @@
+/* Nest Nav */
+nav ul {
+    margin:0px;
+    padding: 10px 50px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    background-color: $color-yellow;
+  }
+  nav li {
+    display: inline-block;
+    color:$color-white;
+    font-size: 18px;
+  }
+  nav a {
+    padding: 6px 12px;
+    text-decoration: none;
+    color:$color-white;
+  }

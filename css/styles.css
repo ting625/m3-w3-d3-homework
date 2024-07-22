@@ -1,0 +1,76 @@
+/* Nest Nav */
+nav ul {
+  margin: 0px;
+  padding: 10px 50px;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  background-color: rgb(218, 170, 14);
+}
+
+nav li {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+nav a {
+  padding: 6px 12px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/* Variables */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+}
+
+/* Nest Main */
+main {
+  width: 1350px;
+  min-height: 535px;
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  border: 27px solid rgb(218, 170, 14);
+}
+
+#intro-text {
+  background-color: rgb(212, 213, 216);
+  padding: 100px 20px;
+}
+
+img {
+  width: 800px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+footer {
+  background-color: rgb(218, 170, 14);
+  padding: 20px 40px;
+  border: 5px solid rgb(218, 170, 14);
+}
+
+.submit-buttton {
+  background-color: rgb(218, 170, 14);
+  border: 1px solid rgb(218, 170, 14);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  width: 10em;
+  height: 3em;
+  font-size: 1rem;
+  padding: 0.5em;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
